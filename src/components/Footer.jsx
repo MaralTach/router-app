@@ -1,9 +1,13 @@
-import React from 'react'
-
-const Footer = () => {
+function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <div style={{ marginTop: "10rem" }}>
+      <nav className="justify-content-center bg-dark p-4 fixed-bottom">
+        <p className="text-light text-center">
+          Copyright {new Date().getFullYear()}
+        </p>
+      </nav>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
