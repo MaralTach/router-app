@@ -20,7 +20,7 @@ const PersonDetail = () => {
   return (
     <div className="container text-center mt-4">
       <h1>PERSON DETAIL</h1>
-      <img className="rounded" src={person?.avatar} alt="img" />
+      <img className="rounded-circle" src={person?.avatar} alt="img" />
 
       <h6>
         {person?.first_name} {person?.last_name}
